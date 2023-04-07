@@ -71,6 +71,14 @@
     .user_part {
         margin-left: 22%;
     }
+    .shapes_holud {
+        position: absolute;
+        right: -14%;
+        bottom: -3%;
+    }
+    .shapes_holud img {
+        max-width: 450px;
+    }
 
     /* say part */
     .our_partright {

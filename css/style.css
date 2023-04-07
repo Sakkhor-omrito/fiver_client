@@ -234,13 +234,13 @@ transition: .5s;
  .shape_right3 img{
     max-width: 240px;
  }
- .shapes_holud{
-    position: absolute;
-    right: -10%;
-   bottom:-3%;
- }
+ .shapes_holud {
+   position: absolute;
+   right: -10%;
+   bottom: -5%;
+}
  .shapes_holud img{
-    max-width: 230px;
+    max-width: 350px;
  }
  .shapes_holud1{
     position: absolute;
