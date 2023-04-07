@@ -79,7 +79,13 @@
     .shapes_holud img {
         max-width: 450px;
     }
-
+/* minereva right */
+.minereva_right {
+    margin-left: 15%;
+}
+.Spread_content p {
+    width: 95%;
+}
     /* say part */
     .our_partright {
         margin-left: 11%;
