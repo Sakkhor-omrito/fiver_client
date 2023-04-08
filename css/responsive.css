@@ -1431,7 +1431,14 @@ box-shadow: none;
 }
 @media(max-width:575px){
 
-
+	.custom_nav {
+		margin-top: 0px;
+		background: #eeeaea38;
+		padding: 15px 0;
+	}
+	.btn_cnter {
+		padding-bottom: 40px;
+	}
 /* banner part */
 #banner_part {
 	margin-top: 70px;
