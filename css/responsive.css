@@ -117,6 +117,53 @@
         left: -6%;
     }
 }
+@media(min-width:1200px) and (max-width:1330px){
+	.minerave_left img {
+		margin-left: 46px;
+	}
+	.minereava_shape {
+		position: absolute;
+		top: 0;
+		left: -89px;
+		z-index: -1;
+	}
+	.minereava_shape img {
+		max-width: 677px;
+	}
+	.how_workleft {
+		margin-top: 42px;
+		transform: translateX(31px);
+	}
+	.shape_left2 img{
+		max-width: 150px;
+	}
+	.shape_left2 {
+		left: 0%;
+		top: 32%;
+	}
+/* our user */
+.say_top {
+	top: 23%;
+	left: 10%;
+}
+.say_bottom {
+	transform: translateX(-72px);
+}
+.content1 {
+	bottom: -4%;
+	left: 0%;
+}
+.content1 p {
+	width: 100%;
+}
+.our_partright {
+	margin-left: 29px;
+}
+	/* campus part */
+	.campus_left img {
+		transform: translateX(-5px);
+	}
+}
 @media(min-width:992px) and (max-width:1199.98px){
 	/* navbar part  */
 	.navbar_ul {
