@@ -1,3 +1,4 @@
+
 @media(min-width:1400px){
     /* banner part */
     .main_top_content {
@@ -49,8 +50,13 @@
         right: -8%;
         bottom: -3%;
     }
+	
 
     /* how it */
+	.how_workleft {
+		margin-top: 42px;
+		transform: translateX(0px);
+	}
     .how_1shape img {
         max-width: 371px;
     }
@@ -71,21 +77,36 @@
     .user_part {
         margin-left: 22%;
     }
-    .shapes_holud {
-        position: absolute;
-        right: -14%;
-        bottom: -3%;
-    }
+	.shapes_holud {
+		position: absolute;
+		right: -7%;
+		bottom: -3%;
+	}
     .shapes_holud img {
         max-width: 450px;
     }
+	
+
 /* minereva right */
 .minereva_right {
-    margin-left: 15%;
+    margin-left: 22%;
+    padding-top: 100px;
+}
+.mineraba_holud {
+    top: -4%;
+    right: 10%;
 }
 .Spread_content p {
     width: 95%;
 }
+.how_3 p {
+    width: 90%;
+}
+.recive_compli {
+    bottom: -37%;
+    left: 3%;
+}
+
     /* say part */
     .our_partright {
         margin-left: 11%;
@@ -101,15 +122,58 @@
         top: 37%;
         left: 23%;
     }
-    .content1 {
-
-        bottom: -4%;
-        left: -3%;
-    }
+	.content1 {
+		bottom: -3.9%;
+		left: -1%;
+	}
+	.recive_compli img {
+		max-width: 500px;
+	}
+	.recive_compli {
+		bottom: -36%;
+		left: -4%;
+	}
+	.minerave_left{
+		margin-left: 20px;
+	}
+	.minereava_shape img {
+		width: 800px;
+	}
 /* campus */
 .campus_left img {
     max-width: 500px;
-    transform: translateX(-51px);
+	transform: translateX(-25px);
+}
+.frequently_left h3 {
+    margin-left: 80px;
+}
+.faq {
+    margin-left: 80px;
+}
+.vibely {
+    padding: 12px 30px 10px 20px;
+    margin: 0 10px 47px 78px;
+}
+.vibely2 {
+    margin-left: 90px;
+}
+.vibely3 {
+    margin: 0 10px 47px 86px;
+}
+.vibely5 p {
+    width: 85%;
+}
+.vibely7 h5 {
+    width: 83%;
+}
+.vibely7 p {
+    width: 80%;
+}
+.campus_right p {
+    width: 85%;
+}
+.minerava_item p {
+    width: 90%;
 }
     /* feq */
     .feq_1 {
@@ -602,14 +666,14 @@
 	}
 	.shape_left1 {
 		left: 6%;
-		top: 23%;
+		top: 25%;
 	}
-	.shape_left2 img{
-		max-width: 130px;
+	.shape_left2 img {
+		max-width: 110px;
 	}
 	.shape_left2 {
 		left: -1%;
-		top: 32%;
+		top: 34%;
 	}
 	.star img {
 		max-width: 25px;
@@ -721,7 +785,7 @@
 		width: 170px;
 	}
 	.minereava_shape img {
-		max-width: 400px;
+		max-width: 420px;
 	}
 	.minereava_shape {
 		left: -49px;
@@ -743,7 +807,7 @@
 		transform: translateX(0px);
 	}
 	.jecika_right {
-		margin-left: -6%;
+		margin-left: -8%;
 	}
 	.how_workleft h6 {
 		font-size: 16px;
@@ -760,6 +824,7 @@
 	.how_1 p {
 		padding-top: 10px;
 		font-size: 14px;
+		width: 87%;
 	}
 	.how_2 span img{
 		max-width: 30px;
@@ -783,20 +848,29 @@
 	.how_3 img{
 		max-width: 30px;
 	}
-	.how_3 p{
+	.how_3 p {
 		padding-top: 10px;
 		font-size: 14px;
+		width: 84%;
 	}
+	.recive_compli {
+		bottom: -51%;
+		left: 6%;
+	}
+	.feq_1 img {
+		max-width: 22px;
+	}
+	
 	.jecika_right img {
 		max-width: 210px;
 		transform: translateY(6%);
 	}
 	.how_long_shape img {
-		max-width: 420px;
+		max-width: 440px;
 	}
 	.how_long_shape {
 		top: 4%;
-		right: -14%;
+		right: -16%;
 	}
 	.start_shapehow img {
 		max-width: 25px;
@@ -951,12 +1025,23 @@
 		width: 100%;
 	}
 	.vibely7 p {
-		word-spacing: 3px;
+		word-spacing: 2px;
 		font-size: 14px;
 	}
 	.vibely7 p span {
 		line-height: 22px;
 	}
+	.feq_1 {
+		left: -3%;
+	}
+	.mineraba_holud {
+		top: -26%;
+		right: -14%;
+	}
+	.vibely7 {
+		margin: 66px 0 0 5px;
+	}
+	
 }
 @media(min-width:576px) and (max-width:767.98px){
 	#banner_part {
@@ -1851,4 +1936,37 @@ display: none;
 .footer_part p {
 	font-size: 13px;
 }
+
+
 }
+
+@media(max-width:350px){
+	.content2 {
+		left: 8%;
+	}
+	.content1 {
+		left: 8%;
+	}
+	.bannerMain_img img {
+		width: 100%;
+	}
+	.shape_left2 img {
+		max-width: 60px;
+	}
+	.shape_right3 img {
+		max-width: 60px;
+	}
+	.shapeBottom3 img {
+		max-width: 90px;
+	}
+	.shapeBottom3 {
+		right: 38%;
+		bottom: -25%;
+	}
+	.intsrag {
+		bottom: 29%;
+		right: 4%;
+	}
+}
+
+	 
