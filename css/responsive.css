@@ -1753,6 +1753,7 @@ display: none;
 .user_part h2 {
 	font-size: 36px;
 	margin-top: 6px;
+	padding-bottom: 20px;
 }
 .user_1shape {
 	top: -67px;
@@ -1774,8 +1775,8 @@ display: none;
 }
 .content1 {
 	padding: 30px 15px 15px 15px;
-	bottom: 65%;
-	left: 13%;
+	position: static;
+	margin:40px auto 30px auto;
 }
 .content1 p {
 	color: var(--secondary-color);
@@ -1788,8 +1789,8 @@ display: none;
 }
 .content2 {
 	padding: 30px 15px 15px 15px;
-	top: 39%;
-	left: 13%;
+	position: static;
+	margin: 40px auto 30px auto;
 }
 .content2 p{
 	width: 100%;
@@ -1817,8 +1818,8 @@ display: none;
 
 
 .our_partright {
-	margin-top: 450px;
-    text-align: center;
+	margin-top: 60px;
+	text-align: center;
 }
 
 /* campus part */
@@ -1907,6 +1908,9 @@ display: none;
 	padding: 32px 45px 40px 30px;
 	border-radius: 8px;
 }
+.vibely h5 {
+	font-size: 22px;
+}
 .vibely6 h5 {
 	font-size: 23px;
 	padding-bottom: 10px;
@@ -1941,12 +1945,6 @@ display: none;
 }
 
 @media(max-width:350px){
-	.content2 {
-		left: 8%;
-	}
-	.content1 {
-		left: 8%;
-	}
 	.bannerMain_img img {
 		width: 100%;
 	}
