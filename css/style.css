@@ -33,6 +33,14 @@ p{
 }
 
 /* navbar css */
+.navbar-toggler:focus{
+  box-shadow: none;
+  outline: none;
+ 
+}
+.custom_nav button{
+   border: none!important;
+}
 .custom_nav{
     margin-top: 10px;
 }
