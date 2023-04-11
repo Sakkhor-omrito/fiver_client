@@ -384,7 +384,11 @@
 		right: 14%;
 		bottom: -5%;
 	}
-
+	.recive_compli {
+		position: absolute;
+		bottom: -55%;
+		left: 3%;
+	}
 	/* spread part */
 	.Spread_content h2 {
 		font-size: 57px;
@@ -472,7 +476,7 @@
 		max-width: 25px;
 	}
 	.start_shapehow {
-		top: 50%;
+		top: 57%;
 		left: 48%;
 	}
 	.jecika_right img {
