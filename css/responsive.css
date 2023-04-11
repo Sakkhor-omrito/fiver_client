@@ -60,16 +60,23 @@
     .how_1shape img {
         max-width: 371px;
     }
-    .how_1shape {
+    /* .how_1shape {
         position: absolute;
         bottom: 68%;
         left: 9%;
         z-index: -1;
-    }
-    .how_long_shape {
-        top: -27%;
-        right: -4%;
-    }
+    } */
+
+	.how_1shape {
+		position: absolute;
+		bottom: 70%;
+		left: 12%;
+		z-index: -1;
+	}
+	.how_long_shape {
+		top: -15%;
+		right: 0%;
+	}
     .recive_compli {
         bottom: -25%;
         left: -3%;
@@ -88,10 +95,22 @@
 	
 
 /* minereva right */
+/* new add */
+
+.minerave_left img {
+    width: 330px;
+}
+.minereava_shape {
+    position: absolute;
+    top: 0;
+    left: -96px;
+    z-index: -1;
+}
 .minereva_right {
     margin-left: 22%;
-    padding-top: 100px;
+    padding-top: 60px;
 }
+
 .mineraba_holud {
     top: -4%;
     right: 10%;
@@ -106,7 +125,10 @@
     bottom: -37%;
     left: 3%;
 }
-
+.jecika_right {
+    margin-left: 27%;
+    margin-top: 14px;
+}
     /* say part */
     .our_partright {
         margin-left: 11%;
@@ -130,14 +152,14 @@
 		max-width: 500px;
 	}
 	.recive_compli {
-		bottom: -36%;
-		left: -4%;
+		bottom: -41%;
+		left: 5%;
 	}
 	.minerave_left{
 		margin-left: 20px;
 	}
 	.minereava_shape img {
-		width: 800px;
+		width: 680px;
 	}
 /* campus */
 .campus_left img {
@@ -387,17 +409,16 @@
 		margin-top: 25px;
 	}
 	.minerave_left img {
-		width: 100%;
 		max-width: 250px;
 	}
-	.minerave_left{
-		margin-left: 90px;
+	.minerave_left {
+		margin-left: 53px;
 	}
 	.minereava_shape img {
-		max-width: 400px;
+		max-width: 486px;
 	}
 	.minereava_shape {
-		left: 14px;
+		left: -40px;
 	}
 	.minereva_right {
 		margin-left: 14%;
@@ -765,8 +786,11 @@
 		right: 51%;
 	}
 	.minerave_left img {
-		max-width: 400px;
-		margin-left: 30px;
+		margin-left: 25px;
+		width: 246px;
+	}
+	.minereva_right {
+		margin-left: 24%;
 	}
 	.minerave_left{
 		text-align: center;
@@ -785,10 +809,10 @@
 		width: 170px;
 	}
 	.minereava_shape img {
-		max-width: 420px;
+		max-width: 451px;
 	}
 	.minereava_shape {
-		left: -49px;
+		left: -59px;
 	}
 	.minerava_item p {
 		font-size: 12px;
@@ -1197,10 +1221,13 @@
 	display: none;
 	}
 	.minereava_shape {
-		left: -14px;
+		left: 8px;
 	}
 	.minerave_left img {
-		max-width: 300px;
+		max-width: 280px;
+	}
+	.minereava_shape img {
+		max-width: 563px;
 	}
 	.minerave_left{
 		text-align: center;
@@ -1276,8 +1303,8 @@
 		margin:140px 0 0 0;
 		text-align: center;
 	}
-	.jecika_right img{
-		max-width: 300px;
+	.jecika_right img {
+		max-width: 275px;
 	}
 	.start_shapehow img {
 		display: none;
@@ -1380,10 +1407,11 @@
 	.campus_left img {
 		transform: translateX(0);
 		width: 100%;
+		margin-bottom: 15px;
 	}
 	.campus_right h5 {
-		font-size: 22px;
-		margin-bottom: 25px;
+		font-size: 28px;
+		margin-bottom: 15px;
 	}
 	.campus_right p {
 		padding-bottom: 30px;
@@ -1438,7 +1466,7 @@
 		margin-left:0px;
 	}
 	.vibely5 h5 {
-		font-size: 22px;
+		font-size: 23px;
 	}
 	.vibely5 p {
 		width: 100%;
@@ -1488,7 +1516,13 @@
 	.footer_part p {
 		font-size: 13px;
 	}
-
+	.feq_1 {
+		bottom: 12%;
+		left: -2%;
+	}
+	.feq_1 img {
+		max-width: 25px;
+	}
 /*  */
 }
 @media(max-width:767.98px){
@@ -1672,10 +1706,10 @@ display: none;
 	margin: 60px 20px 0 20px;
 }
 .minereva_right h6 {
-	font-size: 16px;
+	font-size: 12px;
 }
 .vibe {
-	font-size: 41px;
+    font-size: 34px;
 }
 .minerava_item p {
 	font-size: 13px;
@@ -1690,10 +1724,10 @@ display: none;
 	margin: 42px 10px 0 10px;
 }
 .how_workleft h6 {
-	font-size: 15px;
+	font-size: 12px;
 }
 .how_workleft h4 {
-	font-size: 39px;
+    font-size: 34px;
 }
 .how_1 span {
 	font-size: 20px;
@@ -1751,13 +1785,13 @@ display: none;
 	margin-left:0%;
 }
 .user_part h2 {
-	font-size: 36px;
-	margin-top: 6px;
-	padding-bottom: 20px;
+    font-size: 34px;
+    margin-top: 6px;
+    padding-bottom: 20px;
 }
 .user_1shape {
-	top: -67px;
-	right: 10%;
+    top: -53px;
+    right: 10%;
 }
 .say_top{
     text-align: center;
@@ -1825,10 +1859,12 @@ display: none;
 /* campus part */
 #campus_ambassador {
 	margin: 80px 0 60px 0;
+
 }
 .campus_left img {
-	transform: translateX(0);
-	width: 100%;
+    transform: translateX(0);
+    width: 100%;
+    padding: 0 10px;
 }
 .campus_right h5 {
 	font-size: 22px;
@@ -1839,13 +1875,16 @@ display: none;
 	width: 100%;
 	font-size: 14px;
 }
+.campus_right {
+    padding: 0 10px;
+}
+#Frequently_part{
+	padding:0 5px;
+}
 .frequently_left h3 {
-	font-size: 36px;
-	text-align: center;
+    font-size: 34px;
 }
-.faq {
-	margin-left: 16px;
-}
+
 .vibely p {
 	line-height: 25px;
 	word-spacing: 2px;
@@ -1857,16 +1896,15 @@ display: none;
 }
 .vibely2 h4 {
 	width: 100%;
-	font-size: 25px;
-	padding-left:0px;
-	text-align: center;
-    margin-bottom: 15px;
+	font-size: 24px;
+	padding-left: 0px;
+	text-align: left;
+	margin-bottom: 15px;
 }
 .vibely2 p {
-	width: 100%;
-	word-spacing: 4px;
-	font-size: 13px;
-	text-align: center;
+    width: 100%;
+    word-spacing: 4px;
+    font-size: 13px;
 }
 .vibely3 h4 {
 	width: 100%;
@@ -1887,7 +1925,7 @@ display: none;
 	margin-left:0px;
 }
 .vibely5 h5 {
-	font-size: 22px;
+    font-size: 24px;
 }
 .vibely5 p {
     width: 100%;
@@ -1922,9 +1960,9 @@ display: none;
 	margin: 50px 0 0 0px;
 }
 .vibely7 h5 {
-	font-size: 23px;
-	width: 100%;
-	margin-bottom: 13px;
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 13px;
 }
 .vibely7 p span {
 	line-height:0px;
@@ -1940,7 +1978,9 @@ display: none;
 .footer_part p {
 	font-size: 13px;
 }
-
+.feq_1 img {
+	display: none;
+}
 
 }
 

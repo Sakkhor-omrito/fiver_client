@@ -22,7 +22,7 @@ a,span,h1,h2,h3,h4,h5,h6,p,ul,ol{
 
 body{
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden!important;
 }
 /* font-family: 'Clash Display', sans-serif; */
 p{
@@ -326,24 +326,26 @@ transition: .5s;
  .minereva_left{
     border: 1px solid var(--primary-color);
  }
- .minerave_left img{
-    width: 100%;
- }
- .minereava_shape {
-    position: absolute;
-    top: 0;
-    left: -134px;
-    z-index: -1;
+ .minerave_left img {
+   max-width: 300px;
+   border-radius: 10px;
 }
- .minereava_shape img{
- width: 100%;
- }
+.minereava_shape {
+   position: absolute;
+   top: 0;
+   left: -111px;
+   z-index: -1;
+}
+.minereava_shape img {
+   max-width: 600px;
+}
  .minreva_postion{
     position: relative;
  }
- .minereva_right{
-    margin-left: 23%;
- }
+ .minereva_right {
+   margin-left: 20%;
+   padding-top: 30px;
+}
  .minereva_right h6{
     font-size: 18px;
     font-weight: 500;
@@ -367,11 +369,12 @@ transition: .5s;
  .minerava_item h5 img{
     margin-right: 10px;
  }
- .minerava_item p{
-    color:#808080;
-    padding-bottom:10px;
- }
-
+ .minerava_item p {
+   color: #808080;
+   font-size: 16px;
+   width: 94%;
+   margin-bottom: 9px;
+}
  .minreavs_last{
    margin-top: 27px;
  }
@@ -451,29 +454,29 @@ transition: .5s;
  .how_realt{
    position: relative;
  }
- .how_1shape{
+ .how_1shape {
    position: absolute;
-   bottom: 63%;
-   left: 12%;
+   bottom: 71%;
+   left: 9%;
    z-index: -1;
- }
+}
  .how_1shape img{
    max-width: 340px;
 
  }
- .jecika_right{
-   margin-left:35%;
- }
- .jecika_right img{
-  max-width: 300px;
-   transform: translateY(-15%);
- }
- .how_long_shape{
+ .jecika_right {
+   margin-left: 27%;
+}
+.jecika_right img {
+   max-width: 270px;
+   transform: translateY(-8%);
+}
+.how_long_shape {
    position: absolute;
-   top:-27%;
-   right:-10%;
+   top: -16%;
+   right: -7%;
    z-index: -1;
- }
+}
  .how_long_shape img{
    width: 87%;
  }
@@ -485,10 +488,10 @@ transition: .5s;
  .start_shapehow img{
    max-width: 35px;
  }
-.recive_compli{
+ .recive_compli {
    position: absolute;
-   bottom: -33%;
-   left: -7%;
+   bottom: -41%;
+   left: 1%;
 }
 .recive_compli img{
    max-width: 370px;
