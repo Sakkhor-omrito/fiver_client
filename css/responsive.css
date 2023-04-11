@@ -1660,6 +1660,9 @@ display:none;
 .spred_mains {
 	margin-top: 220px;
 }
+.Spread_content{
+	text-align: center;
+}
 .Spread_content h2 {
 	font-size: 34px;
 	width: 100%;
@@ -1669,6 +1672,7 @@ display:none;
     font-size: 16px;
 	color: #808080;
 }
+
 .spred_chobi {
 	transform: translateY(-122px);
 }
@@ -1729,9 +1733,11 @@ display: none;
 }
 .how_workleft h6 {
 	font-size: 12px;
+	text-align: center;
 }
 .how_workleft h4 {
-    font-size: 34px;
+	font-size: 34px;
+	text-align: center;
 }
 .how_1 span {
 	font-size: 20px;
